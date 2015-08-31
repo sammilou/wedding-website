@@ -1,0 +1,44 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>*/
+@import url(http://fonts.googleapis.com/css?family=Arimo|Pacifico);
+
+body.vegas-container {
+  color:white;
+  position:relative;
+  margin:0 !important;
+}
+
+.addtocalendar {
+  float:right;
+  margin-top: 35px;
+  margin-right: 15px;
+}
+
+.details {
+  position:absolute;
+  bottom:0;
+  background:rgba(0, 0, 0, 0.6);
+  text-align: center;
+  color:white;
+  padding:8px;
+  font-family: 'Tahoma';
+  left:0;
+  right:0;
+  font-size: 20px;
+}
+.heading {
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+  font-size:3rem;
+  color:white;
+  padding:10px;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  text color: white;
+}
