@@ -1,87 +1,16 @@
 <html>
 <head>
-  <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
   <title>Louzon Cooper Wedding</title>
-  <meta name="viewport" content="width=device-width">
   <link rel="icon"
       type="image/png"
       href="/favicon.png">
-  <link rel="stylesheet" href="/css/master.css" media="screen" title="no title" charset="utf-8">
-  <link href="http://addtocalendar.com/atc/1.5/atc-style-blue.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="/node_modules/vegas/dist/vegas.min.css">
 </head>
 
 <!--  ^for addtocalendar plug in - details below -->
 
 <body>
-  <div class="container">
-    <main>
-      <span class="addtocalendar atc-style-blue">
-        <var class="atc_event">
-          <var class="atc_date_start">2016-05-28 17:00:00</var>
-          <var class="atc_date_end">2016-05-28 24:00:00</var>
-          <var class="atc_timezone">America/Detroit</var>
-          <var class="atc_title">Louzon/Cooper Wedding</var>
-          <var class="atc_description">Wedding for Samantha Louzon and Robert Cooper</var>
-          <var class="atc_location">Frankenmeuth Brewery</var>
-          <var class="atc_organizer">Samantha Louzon</var>
-          <var class="atc_organizer_email">sammilouzon@gmail.com</var>
-        </var>
-      </span>
-      <h1 class="heading">Save the Date: May 28<sup>th</sup>, 2016</h1>
-
-      <section class="details">
-        <!--end of segment of code for 'add to calendar' plugin -->
-
-
-        <p>Bob and Sammi are finally getting married!</p>
-        <!-- <p>When: Saturday May 28th, 2016 at 5pm</p> -->
-        <p>Where: Frankenmeuth Brewery in Frankenmeuth, MI (Ceremony starts at 5pm).</p>
-        <p>If you want to stay in town after the wedding, we recommend you try and book a
-          room as soon as possible. (We cannot reserve hotel blocks due to the holiday weekend)</p>
-        <!-- <p>If you have any questions or ceremony ideas, please contact
-          Jennifer Ryan at jlouzon@gmail.com -->
-        </p>
-      </section>
-    </main>
-  </div>
-
-
-  <!--start of segnment of code for the 'add to calendar' plugin
-        ref: http://addtocalendar.com/-->
   <script type="text/javascript">
-    (function() {
-      if (window.addtocalendar)
-        if (typeof window.addtocalendar.start == "function") return;
-      if (window.ifaddtocalendar == undefined) {
-        window.ifaddtocalendar = 1;
-        var d = document,
-          s = d.createElement('script'),
-          g = 'getElementsByTagName';
-        s.type = 'text/javascript';
-        s.charset = 'UTF-8';
-        s.async = true;
-        s.src = ('https:' == window.location.protocol ? 'https' : 'http') + '://addtocalendar.com/atc/1.5/atc.min.js';
-        var h = d[g]('body')[0];
-        h.appendChild(s);
-      }
-    })();
-  </script>
-  <script src="/node_modules/vegas/dist/vegas.js"></script>
-  <script type="text/javascript">
-    $("body").vegas({
-      slides: [{
-        src: "/images/2008.jpg"
-      }, {
-        src: "/images/Clifty.jpg"
-      }, {
-        src: "/images/Stasyks.jpg"
-      }, {
-        src: "/images/Chicago.jpg"
-      }, {
-        src: "/images/Kayak2015.jpeg"
-      }]
-    });
+    window.location.replace("http://www.theknot.com/us/samantha-louzon-and-robert-cooper");
   </script>
 </body>
 
